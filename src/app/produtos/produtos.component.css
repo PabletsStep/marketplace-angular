@@ -71,3 +71,12 @@
     filter: brightness(1.1);
     cursor: pointer;
 }
+
+@media (max-width: 1615px) {
+    .product-list {
+        flex-flow: row wrap;
+        width: 100%;
+        
+    }
+
+}

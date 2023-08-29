@@ -9,10 +9,11 @@
                     <a routerLink="produtos">Produtos</a>
                 </li>
                 <li>
-                    <a routerLink="carrinho">
+                    <a routerLink="carrinho" class="carrinho">
                         <i class="fa-solid fa-cart-shopping"></i>
-                        Carrinho
+                        Carrinho                        
                         <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length }}</span>
+
                     </a>
                 </li>
                 <li>

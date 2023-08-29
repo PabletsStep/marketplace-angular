@@ -1,6 +1,7 @@
-.search-form{
+.search-form {
     height: 44px;
     display: flex;
+    justify-content: center;
 }
 
 .search-form input{
@@ -17,9 +18,15 @@
 
 .search-form button{
     width: 56px;
-    height: 56px;
+    height: 58px;
     background-color: var(--blue);
     border:none;
     color: #fff;
     font-size: 22px;
+}
+
+@media (max-width: 1615px) {
+    .search-form input {
+        width: 100%;
+    }
 }

@@ -40,3 +40,13 @@
 .footer li {
     margin: 10px 0;
 }
+
+@media (max-width: 1615px) {
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+    .footer__about-text {
+        text-align: center;
+    }
+}
