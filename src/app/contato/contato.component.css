@@ -42,3 +42,25 @@
 .contact-form button:disabled:hover {
     filter: none;
 }
+
+@media screen and (max-width: 1615px) {
+    .contact__title {
+        font-size: 24px;
+        padding: 1em 1em 0 1em;
+    }
+
+    .contact-form {
+        padding: 0 1em;
+    }
+
+    .mapa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mapa__iframe {
+        width: 90%;
+    }
+}
