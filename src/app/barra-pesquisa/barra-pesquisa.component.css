@@ -8,7 +8,7 @@
     box-sizing: border-box;
     height: 56px;
     padding: 28px;
-    flex:1;
+    flex: 1;
     background-color: var(--light-gray);
     color: var(--gray);
     border: none;
@@ -27,6 +27,10 @@
 
 @media (max-width: 1615px) {
     .search-form input {
-        width: 100%;
+        width: 300px;
+    }
+
+    .search-form {
+        margin: 0;
     }
 }
